@@ -1,0 +1,131 @@
+:root{
+    --yellow: #f9ca24;
+   }
+html::-webkit-scrollbar{
+      width: .5rem;
+}
+html::-webkit-scrollbar-track{
+      background: #222;
+
+}
+html::-webkit-scrollbar-thumb{
+      background: var(--yellow);
+      
+}
+body{
+    background: #111;
+    align-items: center;
+    justify-content: center;
+     }
+.cv
+{
+padding-top: 0px;
+padding-left: 320px;
+width: 50%;
+}
+.btn{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    color: var(--yellow) ;
+
+}
+.dwn{
+color: #fff;
+text-decoration: none;
+}
+.btn:hover{
+background: var(--yellow);
+color: black;
+}
+.MOV{
+padding-left: 510px;
+width: 20%;
+}
+
+@media ( max-width:1200px )
+{
+.btn{
+display: inline-flex;
+width: 175%;
+align-items: center;
+justify-content: center;
+} 
+.MOV{
+padding-left: 50px;
+}
+.cv{
+padding-left: 64px;
+}
+}
+@media ( max-width:991px )
+{
+.btn{
+display: inline-flex;
+width: 175%;
+align-items: center;
+justify-content: center;
+} 
+.MOV{
+padding-left: 50px;
+}
+.cv{
+padding-left: 64px;
+}
+
+}
+@media ( max-width:768px )
+{ 
+.btn{
+display: inline-flex;
+width: 240%;
+align-items: center;
+justify-content: center;
+} 
+.MOV{
+padding-left: 50px;
+}
+.cv{
+padding-left: 100px;
+}  
+
+}
+@media ( max-width:400px )
+{
+.btn{
+display: inline-flex;
+width: 305%;
+align-items: center;
+justify-content: center;
+} 
+.MOV{
+padding-left: 50px;
+}
+.cv{
+padding-left: 100px;
+} 
+
+}
+@media ( max-width:300px )
+{
+.btn{
+display: inline-flex;
+width: 400%;
+align-items: center;
+justify-content: center;
+} 
+.MOV{
+padding-left: 100px;
+}
+.cv{
+padding-left: 100px;
+} 
+
+}
+#cv1{
+padding-left: 5%;
+}    
